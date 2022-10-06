@@ -1,22 +1,54 @@
-.main {
+/* .main{
   display: flex;
-  flex-direction: column;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
   min-height: 100vh;
-  padding: 4rem 0;
-}
+  min-width: 100vw;
+  }
+  
+  .leftContainer{
+  background-image: url('../public/background.png');
+  min-height: 100vh;
+  min-width: 100vw;
+  }
+  
+  .grosLogo {
+      height: 5px;
+      width: 5px;
 
-.title {
-  line-height: 1.15;
-  font-size: 4rem;
-}
-
-.title a {
-  color: #0070f3;
-  text-decoration: none;
-}
-
-.title a:hover, .title a:focus, .title a:active {
-  text-decoration: underline;
-}
+  
+  }
+  .rightContainer{
+    background-color: grey;
+    min-height: 100vh;
+    min-width: 100vw;
+  
+  }
+  
+  
+  .petitLogo{
+    height: 5px;
+    width: 5px;
+  
+  }
+  
+  .titleHappening{
+  
+  }
+  
+  .titleJoin {
+  
+  }
+  
+  .signUp {
+  
+  }
+  
+  .alreadyAccount{
+  
+  }
+  
+  .signIn {
+  
+  } */
