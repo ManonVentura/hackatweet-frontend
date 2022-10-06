@@ -20,9 +20,9 @@ function Login() {
       <Link href='/home'> Home page</Link>
     <img className={styles.petitLogo}src="logo5.png" />
       <h1 className={styles.titleHappening}>See what's <br/>happening</h1>
-      <h2 className={styles.titleJoin}>Join the hackaton today.</h2>
+      <h2 className={styles.titleJoin}>Join the Aminators today!</h2>
       <button onClick={toggle} className={styles.signUp}>Sign up</button>
-      <h3 className={styles.alreadyAccount}>Already have an account ? </h3>
+      <h3 className={styles.alreadyAccount}>Already a fan ? </h3>
       <button className={styles.signIn}>Sign in</button>
       <Modal isShowing={isShowing} hide={toggle}/>
     </div>
