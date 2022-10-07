@@ -35,7 +35,7 @@ const handleRegister = () => {
       <div className={styles.testdiv}>
         <img src="logo.png" className={styles.logo} />
         <p>Create your Sons of Tweet account</p>
-        <input placeholder="First name" className={styles.input} onChange={(e) => setSignUpname(e.target.value)} value={signUpname}></input>
+        <input placeholder="name" className={styles.input} onChange={(e) => setSignUpname(e.target.value)} value={signUpname}></input>
         <input placeholder="Username" className={styles.input} onChange={(e) => setSignUpUsername(e.target.value)} value={signUpUsername}></input>
         <input placeholder="Password" className={styles.input} onChange={(e) => setSignUpPassword(e.target.value)} value={signUpPassword} ></input>
         <button className={styles.signupbuttonmodal} onClick={() => handleRegister()} >Sign Up</button>

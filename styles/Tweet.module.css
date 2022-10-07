@@ -1,11 +1,68 @@
 .main{
 
-    background-color: red;
+    /* border-bottom: grey solid 0.5px; */
     display: grid;
-    height: 40vh;
-    width: 40vw;
+    height: 30vh;
+    width: 50vw;
     grid-template-columns: repeat(20, 1fr);
-    grid-template-rows: repeat(20, 1fr);
-    border: 1 white solid;
+    grid-template-rows: repeat(10, 1fr);
+    /* border: 1 white solid; */
+    color: whitesmoke
 
+}
+
+.inputTweet {
+grid-row-start:2;
+grid-row-end: 6; 
+grid-column-start: 1;
+grid-column-end: 20;
+margin-left:70px;
+background-color: #171e29;
+color: whitesmoke;
+border-top: none;
+border-right: none;
+border-left: none;
+border-bottom: grey 1px solid;
+}
+.inputTweet:active{
+    border-top: none;
+border-right: none;
+border-left: none;
+border-bottom: grey 1px solid;
+}
+
+.counter {
+    
+}
+
+.counterButtonContainer {
+    grid-row-start:7;
+    grid-row-end: 10; 
+    grid-column-start: 15;
+    grid-column-end: 20;
+
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    /* padding-right: none; */
+    
+}
+.button {
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 30px;
+    background-color: #3790eb;
+    color: whitesmoke;
+    font-weight: bold;
+    margin-left: 10px;
+}
+.button:hover{
+    cursor: pointer;
+    font-weight: bolder;
+}
+
+.homeTitle {
+    padding-left: 15px;
 }

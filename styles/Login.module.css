@@ -19,7 +19,7 @@
     .grosLogo {
         height: 250px;
         width: 250px;
-        mix-blend-mode: multiply;
+        mix-blend-mode: multiply; /* ça enlève le blanc d'une image */
         /* background: transparent; */
 
     }
@@ -84,4 +84,12 @@
 .signIn:hover {
     cursor: pointer;
     font-weight: bold;
+}
+.logo {
+    max-width:5%;
+    height:auto;
+    width: 15px !important;
+    border-radius: 50%;
+/* max-width: 3px;
+max-height: 1%; */
 }
