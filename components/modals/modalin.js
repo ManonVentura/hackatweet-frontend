@@ -18,7 +18,7 @@ const Modalin = ({ isShowing, hide }) =>
                     className={styles.modalCloseButton}
                     onClick={hide}
                   >
-                    <span>&times;</span>
+                    {/* <span>&times;</span> */}
                   </button>
                 </div>
                 <div className={styles.modalBody}>

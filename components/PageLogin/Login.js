@@ -9,7 +9,6 @@ import useModal from "../modals/useModal";
 
 function Login() {
     const {isShowing, toggle} = useModal();
-    const {isShowing2, toggle2} = useModal();
 
 
 
@@ -25,8 +24,8 @@ function Login() {
       <h2 className={styles.titleJoin}>Join the Aminators today!</h2>
       <button onClick={toggle} className={styles.signUp}>Sign up</button>
       <h3 className={styles.alreadyAccount}>Already a fan ? </h3>
-      <button onClick={toggle2} className={styles.signIn}>Sign in</button>
-      <Modalin isShowing={isShowing2} hide={toggle2} />
+      <button onClick={toggle} className={styles.signIn}>Sign in</button>
+      <Modalin isShowing={isShowing} hide={toggle} />
       <Modal isShowing={isShowing} hide={toggle}/>
     </div>
   </main></div>

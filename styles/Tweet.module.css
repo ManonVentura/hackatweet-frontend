@@ -1,0 +1,11 @@
+.main{
+
+    background-color: red;
+    display: grid;
+    height: 40vh;
+    width: 40vw;
+    grid-template-columns: repeat(20, 1fr);
+    grid-template-rows: repeat(20, 1fr);
+    border: 1 white solid;
+
+}
